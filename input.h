@@ -147,10 +147,10 @@ void read_line_from_file_teachers(map<string, Teacher>& teacher_list, const stri
 // Main function for processing student files
 int main_students_files() {
     string script_path = "/usr/share/adam/bash_script.sh";
-    string command = script_path + " > /usr/share/adam/selected_file.txt";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("/usr/share/adam/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -185,10 +185,10 @@ int main_students_files() {
 // Main function for processing teacher files
 int main_teachers_files() {
     string script_path = "/usr/share/adam/bash_script.sh";
-    string command = script_path + " > /usr/share/adam/selected_file.txt";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("/usr/share/adam/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -408,10 +408,10 @@ void load_teachers_from_file(map<string, Teacher>& teachers_list, string filenam
 // Main function for processing cours-exams files
 int main_exams_files() {
      string script_path = "/usr/share/adam/bash_script.sh";
-    string command = script_path + " > /usr/share/adam/selected_file.txt";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("/usr/share/adam/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -446,10 +446,10 @@ int main_exams_files() {
 
 int main_exams_next_files() {
      string script_path = "/usr/share/adam/bash_script.sh";
-    string command = script_path + " > /usr/share/adam/selected_file.txt";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("/usr/share/adam/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -483,10 +483,10 @@ int main_exams_next_files() {
 
 int main_exams_next_next_files() {
      string script_path = "/usr/share/adam/bash_script.sh";
-    string command = script_path + " > /usr/share/adam/selected_file.txt";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("/usr/share/adam/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
