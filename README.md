@@ -2,7 +2,8 @@
 
 Adam is an HR software designed for RHEL-like operating systems. Note that this program works only on Fedora terminal. If you are on Windows, install Fedora WSL from Microsoft.
 
-![home page on adam](https://github.com/malak-100/adam-rpm-repo/ENSIA.png)
+![Home Page on Adam](https://raw.githubusercontent.com/malak-100/adam-rpm-repo/main/ENSIA.png)
+
 
 
 
