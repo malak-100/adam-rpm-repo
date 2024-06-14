@@ -40,7 +40,7 @@ Note: Handling terminal resizing programmatically is not trivial.
 
 To keep the terminal window at a size that makes the letters easier to read, we recommend zooming in to an intermediate level.
 
-### To install via dnf
+### To install via dnf in fedora
 
 $ sudo nano /etc/yum.repos.d/adam.repo
 
