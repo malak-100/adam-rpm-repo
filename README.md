@@ -1,5 +1,7 @@
 # adam
-Adam is an HR software designed for RHEL-like operating systems.
+Adam is an HR software designed for RHEL-like operating systems, Note that this program work only on fedora terminal if you are in windows install fedora WSL from microsoft
+![Uploading image.png…]()
+
 
 This is also for Imad to do ^ ^
 
