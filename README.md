@@ -2,7 +2,8 @@
 
 Adam is an HR software designed for RHEL-like operating systems. Note that this program works only on Fedora terminal. If you are on Windows, install Fedora WSL from Microsoft.
 
-![Fedora Logo](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg)
+![home page on adam](adam-rpm-repo/ENSIA(^_^).png)
+
 
 
 It is for student management. You can input students' files, exam marks, and previous year marks, as well as teachers' files in a specific format.
