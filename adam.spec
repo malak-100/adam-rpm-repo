@@ -3,7 +3,7 @@ Version: 0.0.0.1
 Release: 1%{?dist}
 Summary: Very humble try with HR software maybe we still small but we will not stop as Allah SWT is with us (^_^)
 
-License: for everybody
+License: GPL v0.3
 URL: https://github.com/malak-100/adam-rpm-repo
 Source0: %{name}-%{version}.tar.gz
 
@@ -15,7 +15,7 @@ BuildRequires: gcc-c++, ncurses-devel, zenity, dbus-x11
 %define _debugsource_packages 0
 
 %description
-Thins is for imad to do
+This is for imad to do
 
 %prep
 %autosetup
@@ -50,6 +50,6 @@ chmod +x %{buildroot}/usr/share/%{name}/*.sh
 %doc
 
 %changelog
-* Thu Jun 14 2024 Malak Felioune & Imad Ismail <you@example.com> - 0.0.0.1-1
+* Thu Jun 14 2024 Malak Felioune & Imad Ismail <malak.felioune@ensia.edu.dz> <imad.ismail@ensia.edu.dz> - 0.0.0.1-1
 - Initial build
 
