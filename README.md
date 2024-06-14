@@ -4,6 +4,7 @@ Adam is an HR software designed for RHEL-like operating systems. Note that this 
 
 ![Fedora Logo](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fedora_logo.svg)
 
+
 It is for student management. You can input students' files, exam marks, and previous year marks, as well as teachers' files in a specific format.
 
 For the students' file, each line should be as follows:  
