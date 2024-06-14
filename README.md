@@ -7,7 +7,7 @@ Adam is an HR software designed for RHEL-like operating systems. Note that this 
 
 
 
-It is for student management. You can input students' files, exam marks, and previous year marks, as well as teachers' files in a specific format , for experiment you can use the files lists in data dir above(by defaults but you can insert others files ). 
+It is for student management. You can input students' files, exam marks, and previous year marks, as well as teachers' files in a specific format:. 
 
 For the students' file, each line should be as follows:  
 
@@ -55,7 +55,7 @@ gpgcheck=0
 Save the file and then run:
 
 $ sudo dnf install adam
-
+# BE SURE THAT YOU DO NOT INPUT THE SAME FILES OR DATA TWICE 
 # If you want to clone the repo and run adam bin directly
 YOU MUST PUT THOSE FILES IN THIER PLACE IN THE SYSTEM AND GIVE THEM THE FOLLOWING PERMISSIONS 
 ```bash
