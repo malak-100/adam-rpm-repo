@@ -7,10 +7,10 @@ this is also for imad to do ^ ^
  # To install via dnf 
  $ sudo nano /etc/yum.repos.d/adam.repo 
  1.then you have to write 
- [adam]
-name=Adam RPM Repository
-baseurl=https://malak-100.github.io/adam-rpm-repo/
-enabled=1
-gpgcheck=0
+ [adam] 
+name=Adam RPM Repository 
+baseurl=https://malak-100.github.io/adam-rpm-repo/ 
+enabled=1 
+gpgcheck=0 
 
 
