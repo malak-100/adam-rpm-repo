@@ -613,8 +613,8 @@ int main() {
         L"                                                                 ",
         L"                                                                 ",
         L"                                                                 ",
-        L"                                                                 ",
-        L"                        H:help  I:insert file  Q:quit            ",
+        L"                                version 0.0.0.1                     ",
+        L"       H:help  I:insert_file  Q:quit  S:students  T:teachers  A:stat  P:proba     ",
     };
  int num_lines = sizeof(lines) / sizeof(lines[0]);
 for (int i = 0,j=12; i < num_lines; ++i,++j) {
