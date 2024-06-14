@@ -4,7 +4,7 @@ Release: 1%{?dist}
 Summary: Very humble try with HR software maybe we still small but we will not stop as Allah SWT is with us (^_^)
 
 License: for everybody
-URL: https://github.com/malak-100/FinalProjectOfTheYear
+URL: https://github.com/malak-100/adam-rpm-repo
 Source0: %{name}-%{version}.tar.gz
 
 BuildRequires: gcc-c++, ncurses-devel, zenity, dbus-x11
@@ -15,7 +15,7 @@ BuildRequires: gcc-c++, ncurses-devel, zenity, dbus-x11
 %define _debugsource_packages 0
 
 %description
-Detailed description of your program.
+Thins is for imad to do
 
 %prep
 %autosetup
