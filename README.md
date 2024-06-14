@@ -7,7 +7,7 @@ Adam is an HR software designed for RHEL-like operating systems. Note that this 
 
 
 
-It is for student management. You can input students' files, exam marks, and previous year marks, as well as teachers' files in a specific format.
+It is for student management. You can input students' files, exam marks, and previous year marks, as well as teachers' files in a specific format , for experiment you can use the files lists in data dir above(by defaults but you can insert others files ). 
 
 For the students' file, each line should be as follows:  
 
