@@ -38,6 +38,9 @@ cp *.sh %{buildroot}/usr/share/%{name}/
 
 # Make scripts executable
 chmod +x %{buildroot}/usr/share/%{name}/*.sh
+%post
+# Run setup.sh after installation
+/usr/share/%{name}/setup.sh
 
 %files
 /usr/bin/adam
