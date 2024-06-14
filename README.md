@@ -87,5 +87,6 @@ chmod +wxr /usr/share/adam/teachers_datahovuhovi.txt
 
 cp adam /usr/local/bin/
  # now you can run it in any place in the system  
-
+```
+# TO ADD STUDENTS OR FILES OR TEACHERS OR MANIPULATE OR INSERT ANY DATA YOU MUST BE A ROOT USER 
 
