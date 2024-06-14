@@ -52,6 +52,36 @@ Save the file and then run:
 
 $ sudo dnf install adam
 
+###If you want to clone the repo and run adam bin directly
+YOU MUST PUT THOSE FILES IN THIER PLACE IN THE SYSTEM AND GIVE THEM THE FOLLOWING PERMISSIONS 
+```bash
 
+mv bash_script.sh /usr/share/adam/ 
+mv bash_script1.sh /usr/share/adam/
+mv bash_script2.sh /usr/share/adam/
+mv bash_script3.sh /usr/share/adam/
+mv bash_script_delete1.sh /usr/share/adam/
+mv bash_script_delete2.sh /usr/share/adam/
+mv bash_script_delete3.sh /usr/share/adam/
+mv selected_file.sh /usr/share/adam/
+mv data /usr/share/adam/ 
+chmod +wxr setup.sh
+./setup.sh
+chmod +wxr /usr/share/adam/bash_script.sh 
+chmod +wxr /usr/share/adam/bash_script1.sh 
+chmod +wxr /usr/share/adam/bash_script2.sh 
+chmod +wxr /usr/share/adam/bash_script3.sh 
+chmod +wxr /usr/share/adam/bash_script_delete1.sh 
+chmod +wxr /usr/share/adam/bash_script_delete2.sh 
+chmod +wxr /usr/share/adam/bash_script_delete3.sh 
+chmod +wxr /usr/share/adam/selected_file.sh 
+chmod +wxr /usr/share/adam/exams_datahovuhovi.txt
+chmod +wxr /usr/share/adam/exams_next_datahovuhovi.txt
+chmod +wxr /usr/share/adam/exams_next_next_datahovuhovi.txt
+chmod +wxr /usr/share/adam/students_datahovuhovi.txt
+chmod +wxr /usr/share/adam/teachers_datahovuhovi.txt
+
+cp adam /usr/local/bin/
+ # now you can run it in any place in the system  
 
 
