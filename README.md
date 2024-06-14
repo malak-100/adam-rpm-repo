@@ -15,6 +15,11 @@ To keep the terminal window in size:
 $ sudo nano /etc/yum.repos.d/adam.repo
 
 In this format:
+[adam]<br>
+name=Adam RPM Repository<br>
+baseurl=https://malak-100.github.io/adam-rpm-repo/<br>
+enabled=1<br>
+gpgcheck=0<br>
 
 - The `[adam]`, `name=Adam RPM Repository`, `baseurl=https://malak-100.github.io/adam-rpm-repo/`, `enabled=1`, and `gpgcheck=0` will each appear on a new line within the code block.
 - Markdown syntax with triple backticks (```) allows you to present code or configuration blocks with each line maintaining its formatting.
