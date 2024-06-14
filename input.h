@@ -14,11 +14,11 @@
 
 using namespace std;
  // File paths
-    const string students_file = "~/exp/tem/panel/data/students_datahovuhovi.txt";
-    const string teachers_file = "~/exp/tem/panel/data/teachers_datahovuhovi.txt";
-    const string exams_file = "~/exp/tem/panel/data/exams_datahovuhovi.txt";
-   const string exams_next_file = "~/exp/tem/panel/data/exams_next_datahovuhovi.txt";
-const string exams_next_next_file = "~/exp/tem/panel/data/exams_next_next_datahovuhovi.txt";
+    const string students_file = "/usr/share/adam/data/students_datahovuhovi.txt";
+    const string teachers_file = "/usr/share/adam/data/teachers_datahovuhovi.txt";
+    const string exams_file = "/usr/share/adam/data/exams_datahovuhovi.txt";
+   const string exams_next_file = "/usr/share/adam/data/exams_next_datahovuhovi.txt";
+const string exams_next_next_file = "/usr/share/adam/data/exams_next_next_datahovuhovi.txt";
 map<string, Student> students_list_next_year;
 map<string, Student> students_list_next_next_year;
 map<string, Student> students_list;
@@ -146,11 +146,11 @@ void read_line_from_file_teachers(map<string, Teacher>& teacher_list, const stri
 }
 // Main function for processing student files
 int main_students_files() {
-    string script_path = "~/exp/tem/input/bash_script.sh";
-    string command = script_path + " > ~/exp/tem/input/selected_file.txt";
+    string script_path = "/usr/share/adam/bash_script.sh";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("~/exp/tem/input/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -177,18 +177,18 @@ int main_students_files() {
     file2.close();
 
    
-    system("~/exp/tem/input/bash_script2.sh");
+    system("/usr/share/adam/bash_script2.sh");
 
     return 0;
 }
 
 // Main function for processing teacher files
 int main_teachers_files() {
-    string script_path = "~/exp/tem/input/bash_script.sh";
-    string command = script_path + " > ~/exp/tem/input/selected_file.txt";
+    string script_path = "/usr/share/adam/bash_script.sh";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("~/exp/tem/input/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -214,7 +214,7 @@ int main_teachers_files() {
     file2.close();
 
    
-    system("~/exp/tem/input/bash_script2.sh");
+    system("/usr/share/adam/bash_script2.sh");
 
     return 0;
 }
@@ -407,11 +407,11 @@ void load_teachers_from_file(map<string, Teacher>& teachers_list, string filenam
 }
 // Main function for processing cours-exams files
 int main_exams_files() {
-     string script_path = "~/exp/tem/input/bash_script.sh";
-    string command = script_path + " > ~/exp/tem/input/selected_file.txt";
+     string script_path = "/usr/share/adam/bash_script.sh";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("~/exp/tem/input/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -438,18 +438,18 @@ int main_exams_files() {
     file2.close();
 
    
-    system("~/exp/tem/input/bash_script2.sh");
+    system("/usr/share/adam/bash_script2.sh");
 
     return 0;
 }
 
 
 int main_exams_next_files() {
-     string script_path = "~/exp/tem/input/bash_script.sh";
-    string command = script_path + " > ~/exp/tem/input/selected_file.txt";
+     string script_path = "/usr/share/adam/bash_script.sh";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("~/exp/tem/input/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -476,17 +476,17 @@ int main_exams_next_files() {
     file2.close();
 
    
-    system("~/exp/tem/input/bash_script2.sh");
+    system("/usr/share/adam/bash_script2.sh");
 
     return 0;
 }
 
 int main_exams_next_next_files() {
-     string script_path = "~/exp/tem/input/bash_script.sh";
-    string command = script_path + " > ~/exp/tem/input/selected_file.txt";
+     string script_path = "/usr/share/adam/bash_script.sh";
+    string command = script_path + " > /usr/share/adam/selected_file.sh";
     system(command.c_str());
 
-    ifstream file1(expand_tilde("~/exp/tem/input/selected_file.txt"));
+    ifstream file1(expand_tilde("/usr/share/adam/selected_file.sh"));
     if (!file1.is_open()) {
         cerr << "Error: Could not open file for reading selected file path." << endl;
         return 1;
@@ -513,7 +513,7 @@ int main_exams_next_next_files() {
     file2.close();
 
    
-    system("~/exp/tem/input/bash_script2.sh");
+    system("/usr/share/adam/bash_script2.sh");
 
     return 0;
 }
