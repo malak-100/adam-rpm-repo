@@ -23,6 +23,7 @@ chmod +xwr ~/program1/data/exams_next_datahovuhovi.txt
 chmod +xwr ~/program1/data/exams_next_next_datahovuhovi.txt
 chmod +xwr ~/program1/data/students_datahovuhovi.txt
 chmod +xwr ~/program1/data/teachers_datahovuhovi.txt
+chmod +xwr ~/program1/selected_file.txt
 
 # Ensure the terminal is kept in full size
 # Note: Handling terminal resizing programmatically is not trivial; consider user instructions instead.
