@@ -30,6 +30,7 @@ There are three exams lists for this year, the previous year, and the previous t
 - **Teachers Tab**: Similar functionalities for teachers.
 - **Stats Tab**: Displays all statistical parameters about the inserted data.
 - **Proba Tab**: Shows some interesting values based on regression analysis (note: predictions may not be precise).
+- **Input Tab**: Input the files in the format above for each file 
 
 This is the humble effort of one week, but we believe that we can make it more advanced in the future!
 
