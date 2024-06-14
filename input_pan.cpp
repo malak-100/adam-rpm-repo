@@ -315,10 +315,10 @@ int done_message_x = (box_width_loading - strlen("Done!")) / 2;
 mvwprintw(loading_win, done_message_y, done_message_x, "Done!");
 wrefresh(loading_win);
 usleep(500000);
-if(choice=='1'){system("~/exp/tem/panel/bash_script_delete1.sh");}
-if(choice=='2'){system("~/exp/tem/panel/bash_script_delete2.sh");}
-if(choice=='3'){system("~/exp/tem/panel/bash_script_delete3.sh");}
-if(choice=='4'){system("~/exp/tem/panel/bash_script3.sh");}
+if(choice=='1'){system("/usr/share/adam/bash_script_delete1.sh");}
+if(choice=='2'){system("/usr/share/adam/bash_script_delete2.sh");}
+if(choice=='3'){system("/usr/share/adam/bash_script_delete3.sh");}
+if(choice=='4'){system("/usr/share/adam/bash_script3.sh");}
 // Hide the loading panel
 hide_panel(loading_pan);
 clear_panel(loading_pan);
