@@ -27,5 +27,5 @@ chmod +xwr /usr/share/adam/selected_file.sh
 
 
 
-echo "Setup completed successfully."
+echo "Setup completed successfully! "
 
