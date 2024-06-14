@@ -50,6 +50,6 @@ chmod +x %{buildroot}/usr/share/%{name}/*.sh
 %doc
 
 %changelog
-* Thu Jun 14 2024 Malak Felioune & Imad Ismail <malak.felioune@ensia.edu.dz> <imad.ismail@ensia.edu.dz> - 0.0.0.1-1
+* Thu Jun 14 2024 Malak Felioune & Imad Ismail <malak.felioune@ensia.edu.dz> <imad.smail@ensia.edu.dz> - 0.0.0.1-1
 - Initial build
 
