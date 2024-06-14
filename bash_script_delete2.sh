@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-echo " " > data/students_datahovuhovi.txt 
+echo " " > /usr/share/adam/data/students_datahovuhovi.txt 
