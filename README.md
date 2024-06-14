@@ -14,7 +14,7 @@ firstname lastname email id
 For the teachers' file, input as follows:  
 
 Omar Abdulrahman omar.abdulrahman@gmail.com Arabic 10/12/2010  
-firstname lastname email any_module_name startdate dd/mm/yyyy
+firstname lastname email any_module_name startdate{dd/mm/yyyy}
 
 For exam marks files:  
 
