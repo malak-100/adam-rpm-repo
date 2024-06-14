@@ -1,6 +1,7 @@
 # adam
 Adam is an HR software designed for RHEL-like operating systems, Note that this program work only on fedora terminal if you are in windows install fedora WSL from microsoft
-![Uploading image.png…]()
+![Uploading image.png…](<img width="292" alt="image" src="https://github.com/malak-100/adam-rpm-repo/assets/160192136/04731620-197b-4bad-a5bb-ec398ffff479">
+)
 
 
 This is also for Imad to do ^ ^
