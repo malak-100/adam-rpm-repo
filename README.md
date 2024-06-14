@@ -52,7 +52,7 @@ Save the file and then run:
 
 $ sudo dnf install adam
 
-###If you want to clone the repo and run adam bin directly
+# If you want to clone the repo and run adam bin directly
 YOU MUST PUT THOSE FILES IN THIER PLACE IN THE SYSTEM AND GIVE THEM THE FOLLOWING PERMISSIONS 
 ```bash
 
