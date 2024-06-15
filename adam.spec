@@ -29,19 +29,22 @@ g++ main.cpp -lncursesw -lpanel -o adam
 mkdir -p %{buildroot}/usr/bin
 mkdir -p %{buildroot}/usr/share/%{name}/data
 mkdir -p %{buildroot}/usr/share/%{name}/src
+mkdir -p %{buildroot}/usr/share/%{name}/include
 
 # Copy the executable
 cp adam %{buildroot}/usr/bin/
 
-# Copy the data files and scripts
+# Copy the data files, scripts, source files, and headers
 cp -r data %{buildroot}/usr/share/%{name}/
 cp *.sh %{buildroot}/usr/share/%{name}/
-
-# Copy the source files
-cp *.cpp *.h %{buildroot}/usr/share/%{name}/src/
+cp *.cpp %{buildroot}/usr/share/%{name}/src/
+cp *.h %{buildroot}/usr/share/%{name}/include/
 
 # Make scripts executable
 chmod +x %{buildroot}/usr/share/%{name}/*.sh
+
+# Make data files writable and readable
+chmod -R 666 %{buildroot}/usr/share/%{name}/data
 
 %post
 # Run setup.sh after installation
@@ -52,11 +55,10 @@ chmod +x %{buildroot}/usr/share/%{name}/*.sh
 /usr/share/%{name}
 /usr/share/%{name}/data
 /usr/share/%{name}/src
+/usr/share/%{name}/include
 %license
 %doc
 
 %changelog
 * Thu Jun 14 2024 Malak Felioune & Imad Ismail <malak.felioune@ensia.edu.dz> <imad.smail@ensia.edu.dz> - 0.0.0.1-1
 - Initial build
-
-
