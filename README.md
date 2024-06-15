@@ -56,6 +56,7 @@ Save the file and then run:
 
 $ sudo dnf install adam
 # BE SURE THAT YOU DO NOT INPUT THE SAME FILES OR DATA TWICE 
+and sometimes it is better to quit then enter adam again when inputting new data
 # If you want to clone the repo and run adam bin directly
 YOU MUST PUT THOSE FILES IN THIER PLACE IN THE SYSTEM AND GIVE THEM THE FOLLOWING PERMISSIONS 
 ```bash
