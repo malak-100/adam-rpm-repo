@@ -41,9 +41,9 @@ Note: Handling terminal resizing programmatically is not trivial.
 To keep the terminal window at a size that makes the letters easier to read, we recommend zooming in to an intermediate level.
 
 ### To install via dnf in fedora
-
+```bash
 $ sudo nano /etc/yum.repos.d/adam.repo
-
+```
 Then write inside the file:
 ```bash
 [adam]  
@@ -53,10 +53,15 @@ enabled=1
 gpgcheck=0
 ```
 Save the file and then run:
-
+```bash
 $ sudo dnf install adam
+```
+![installationpic](https://raw.githubusercontent.com/malak-100/adam-rpm-repo/main/installation.png) 
+
 # BE SURE THAT YOU DO NOT INPUT THE SAME FILES OR DATA TWICE 
-and sometimes it is better to quit then enter adam again when inputting new data
+and sometimes it is better to quit then enter adam again when inputting new data.
+
+
 # If you want to clone the repo and run adam bin directly
 YOU MUST PUT THOSE FILES IN THIER PLACE IN THE SYSTEM AND GIVE THEM THE FOLLOWING PERMISSIONS 
 ```bash
