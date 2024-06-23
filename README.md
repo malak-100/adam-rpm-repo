@@ -45,13 +45,13 @@ To keep the terminal window at a size that makes the letters easier to read, we 
 $ sudo nano /etc/yum.repos.d/adam.repo
 
 Then write inside the file:
-
+```bash
 [adam]  
 name=Adam RPM Repository  
 baseurl=https://malak-100.github.io/adam-rpm-repo/  
 enabled=1  
 gpgcheck=0
-
+```
 Save the file and then run:
 
 $ sudo dnf install adam
